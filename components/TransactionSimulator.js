@@ -103,15 +103,15 @@ export default function TransactionSimulator({ account, apiKey }) {
             
             <label>
                 To Address:
-                <input type="text" name="to" value={transactionData.to} onChange={handleInputChange} placeholder="0xRecipientAddress" required />
+                <input className='text-black' type="text" name="to" value={transactionData.to} onChange={handleInputChange} placeholder="0xRecipientAddress" required />
             </label>
             <label>
                 Value (ETH):
-                <input type="text" name="value" value={transactionData.value} onChange={handleInputChange} placeholder="0.1" required />
+                <input className='text-black' type="text" name="value" value={transactionData.value} onChange={handleInputChange} placeholder="0.1" required />
             </label>
             <label>
                 Data (Optional):
-                <input type="text" name="data" value={transactionData.data} onChange={handleInputChange} placeholder="0x" />
+                <input className='text-black' type="text" name="data" value={transactionData.data} onChange={handleInputChange} placeholder="0x" />
             </label>
             <label>
                 Gas Limit (Default 21,000 for simple transactions):
@@ -119,7 +119,7 @@ export default function TransactionSimulator({ account, apiKey }) {
             </label>
             <label>
                 Gas Price (Gwei):
-                <input type="text" name="gasPrice" value={transactionData.gasPrice} onChange={handleInputChange} placeholder={`Recommended: ${gasTracker.low} - ${gasTracker.high}`} />
+                <input className='text-black' type="text" name="gasPrice" value={transactionData.gasPrice} onChange={handleInputChange} placeholder={`Recommended: ${gasTracker.low} - ${gasTracker.high}`} />
             </label>
             <label className="block">Network:</label>
             <select
