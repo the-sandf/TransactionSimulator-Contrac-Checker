@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles/globals.css */
+
+.glow-effect {
+  box-shadow: 0 0 20px rgba(0, 150, 255, 0.5), 0 0 30px rgba(0, 150, 255, 0.3);
+}
+/* styles/globals.css */
+body {
+  @apply bg-black text-gray-900;
+}
+header, footer {
+  @apply bg-black text-white;
+}
+
+
+input {
+  @apply border border-gray-300 rounded-md p-2 w-full mb-4;
+}
+button {
+  @apply bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600;
+}
+.result {
+  @apply mt-4 p-4 bg-green-100 rounded-lg;
+}
+.error {
+  @apply mt-4 p-4 bg-red-100 text-red-700;
+}
