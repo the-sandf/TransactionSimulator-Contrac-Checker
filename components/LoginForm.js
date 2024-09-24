@@ -30,7 +30,7 @@ export default function LoginForm({ onLogin }) {
                 <h2 className="text-white text-2xl mb-4">Login with Etherscan API Key</h2>
                 <label className="block mb-2 text-white">
                     Etherscan API Key:
-                    <input
+                    <input className='text-black'
                         type="text"
                         value={apiKey}
                         onChange={(e) => setApiKey(e.target.value)}
