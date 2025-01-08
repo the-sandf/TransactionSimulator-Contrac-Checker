@@ -27,20 +27,18 @@ This project is a React-based web application that allows users to validate Ethe
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/contract-address-checker.git
+   git clone https://github.comthe-sandf/TransactionSimulator-Contrac-Checker.git
    cd contract-address-checker
    ```
 
 2. Install the dependencies:
 
   ```bash
-  Copy code
   npm install
   ```
 Start the development server:
 
   ```bash
-  Copy code
   npm run dev
   ```
 Open your browser and go to http://localhost:3000.
